@@ -6,11 +6,6 @@
     <title>Three Rivers Collective</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --navy: #0B0B1F;
-            --burgundy: #9D1C1F;
-        }
-
         body, html {
             margin: 0;
             padding: 0;
@@ -23,31 +18,31 @@
         }
 
         .container {
-            text-align: center;
-            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 600px;
             padding: 20px;
         }
 
         .logo {
             width: 100%;
-            max-width: 600px;
             margin-bottom: 40px;
         }
 
         .job-link {
-            display: inline-block;
-            color: var(--navy);
+            color: #0B0B1F;
             font-size: 1.2rem;
             text-decoration: none;
-            border-bottom: 2px solid var(--navy);
+            border-bottom: 2px solid #0B0B1F;
             padding-bottom: 2px;
             transition: all 0.3s ease;
             font-weight: 500;
         }
 
         .job-link:hover {
-            color: var(--burgundy);
-            border-bottom-color: var(--burgundy);
+            color: #9D1C1F;
+            border-bottom-color: #9D1C1F;
         }
     </style>
 </head>
